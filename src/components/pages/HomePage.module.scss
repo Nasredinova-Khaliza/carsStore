@@ -1,0 +1,69 @@
+
+
+.homePage {
+  text-align: center;
+  padding: 20px;
+}
+
+.heading {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.subheading {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 40px;
+}
+
+.featuredCars {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.carCard {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+  width: 300px;
+}
+
+.carCard:hover {
+  transform: translateY(-5px);
+}
+
+.carCard img {
+  width: 100%;
+  height: auto;
+}
+
+.carCard h3 {
+  margin-top: 10px;
+}
+
+.carCard p {
+  color: #666;
+}
+
+.services {
+  margin-top: 50px;
+}
+
+.services h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.services ul {
+  list-style: none;
+  padding: 0;
+}
+
+.services li {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
